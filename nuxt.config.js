@@ -25,6 +25,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    // '@/plugins/strapi-http',
+    // {src: '@/plugins/strapi-http', mode: 'client'},
   ],
 
   strapi: {
