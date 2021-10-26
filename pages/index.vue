@@ -75,3 +75,12 @@
     </v-col>
   </v-row>
 </template>
+
+<script>
+export default {
+  async asyncData({ $strapi }) {
+    const page = await $strapi.findOne('pages', 'home')
+    console.log('page', page);
+  }
+}
+</script>

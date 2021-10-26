@@ -27,6 +27,16 @@ export default {
   plugins: [
   ],
 
+  strapi: {
+    url: 'http://localhost:1337',
+    entities: [
+      {
+        name: 'pages',
+        type: 'collection',
+      },
+    ],
+  },
+
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
